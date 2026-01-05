@@ -1,0 +1,26 @@
+@import url('app.scss');
+
+body {
+    margin: 0;
+    padding: 0;
+    transition-duration: 0.3s;
+
+    &.dark_mode {
+        background-color: #222831;
+        color: #fff;
+
+        header {
+            background-color: #15191f;
+            border-bottom: 1px solid #444;
+        }
+
+        .search_bar_serults {
+            color: black;
+        }
+
+        .big_card_text,
+        .small_card_text {
+            color: #fff;
+        }
+    }
+}
